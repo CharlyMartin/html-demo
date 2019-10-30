@@ -1,1 +1,82 @@
 /* TODO: design your profile with CSS */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: rgb(50, 50, 50);
+  margin: 0;
+}
+
+body * {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-top: 0;
+  color: #6B72E1;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #7ECE90;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 15px;
+}
+
+div {
+  background: white;
+  width: 600px;
+  padding: 30px;
+  margin: 15px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#header h1, img {
+  margin-bottom: 15px
+}
+
+#btn-purple {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#btn-purple:hover {
+  background-color: #8A6BE1;
+}
+
+.social-link {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social-link > a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
